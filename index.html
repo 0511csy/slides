@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>无缝的轮播</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="window">
+      <div id="slides" class="images">
+        <img src="img/sample_slides/macbook.jpg" width="920" height="400" alt="side" />
+        <img src="img/sample_slides/iphone.jpg" width="920" height="400" alt="side" />
+        <img src="img/sample_slides/imac.jpg" width="920" height="400" alt="side" />
+        <img src="img/sample_slides/info.jpg" width="920" height="400" alt="side" />
+      </div>
+    </div>
+    <div id="controls" style="text-align:center;">
+      <div id="previous">&lt;</div>
+      <div id="next">&gt;</div>
+    </div>
+    <div id=buttonWrapper style="text-align:center;">
+      <span class="fbar"></span>
+      <button><img src="img/sample_slides/thumb_macbook.png"  alt="thumbnail" /></button>
+      <button><img src="img/sample_slides/thumb_iphone.png" alt="thumbnail" /></button>
+      <button><img src="img/sample_slides/thumb_imac.png" alt="thumbnail" /></button>
+      <button><img src="img/sample_slides/thumb_about.png" alt="thumbnail" /></button>
+    </div>
+  </div>
+  
+  <script src="./jquery-3.2.1.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
